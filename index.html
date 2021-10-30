@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="icon" type="image/png" href="/favicon-32x32.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-    <!-- Script -->
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Browser speech recognition</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Browser speech recognition</h1>
+    </header>
+    <main>
+      <button id="btn-listen">Start listening</button>
+      <button id="btn-copy">Copy Text</button>
+      <div id="result"></div>
+      <p id="message" hidden aria-hidden="true">
+        Your browser doesn't support Speech Recognition. Sorry.
+      </p>
+    </main>
+    <footer>
+      <p>Built with 🎙 by <a href="https://twitter.com/philnash">philnash</a></p>
+    </footer>
+  </body>
 </html>

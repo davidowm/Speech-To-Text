@@ -1,0 +1,23 @@
+{
+  "name": "speech-to-text",
+  "version": "1.0.0",
+  "description": "Speech to Text converter",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidowm/Speech-To-Text.git"
+  },
+  "author": "marci davidow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidowm/Speech-To-Text/issues"
+  },
+  "homepage": "https://github.com/davidowm/Speech-To-Text#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
