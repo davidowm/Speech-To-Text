@@ -61,7 +61,7 @@ window.addEventListener('DOMContentLoaded', () => {
       listening = !listening;
     });
     btnCopy.addEventListener('click', e => {
-      const copyText = document.querySelector('.final');
+      const copyText = document.querySelectorAll('.final');
       /* Copy the text inside the text field */
       navigator.clipboard.writeText(copyText.textContent);
 
